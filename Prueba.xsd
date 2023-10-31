@@ -1,0 +1,33 @@
+{
+  "name": "AC-AXPFX769",
+  "objectType": "SalesItem",
+  "parent": "I-Level3-122",
+  "values": {
+    "CountryOfOrigin": {
+      "value": {
+        "valueId": "GB"
+      }
+    },
+    "UPC": {
+      "value": {
+        "value": "445555555575"
+      }
+    }
+  },
+  "references": {
+    "Accessory": {
+      "references": [
+        {
+          "target": "I-SalesItem-1111",
+          "values": {
+            "AccessoryDisplaySequence": {
+              "value": {
+                "value": "1"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
